@@ -1,0 +1,6 @@
+.pic {
+    width: 50%;
+    margin-right: 50px;
+    object-fit: contain;
+    max-height: 80vh;
+}
