@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/nasa_apod/static/css/main.2506d703.chunk.css",
-    "main.js": "/nasa_apod/static/js/main.20e1934c.chunk.js",
-    "main.js.map": "/nasa_apod/static/js/main.20e1934c.chunk.js.map",
-    "runtime-main.js": "/nasa_apod/static/js/runtime-main.2089a83f.js",
-    "runtime-main.js.map": "/nasa_apod/static/js/runtime-main.2089a83f.js.map",
-    "static/js/2.3cf5bbbf.chunk.js": "/nasa_apod/static/js/2.3cf5bbbf.chunk.js",
-    "static/js/2.3cf5bbbf.chunk.js.map": "/nasa_apod/static/js/2.3cf5bbbf.chunk.js.map",
-    "static/js/3.83857554.chunk.js": "/nasa_apod/static/js/3.83857554.chunk.js",
-    "static/js/3.83857554.chunk.js.map": "/nasa_apod/static/js/3.83857554.chunk.js.map",
+    "main.css": "/nasa_apod/static/css/main.0b895cab.chunk.css",
+    "main.js": "/nasa_apod/static/js/main.91a1c38c.chunk.js",
+    "main.js.map": "/nasa_apod/static/js/main.91a1c38c.chunk.js.map",
+    "runtime-main.js": "/nasa_apod/static/js/runtime-main.461461a2.js",
+    "runtime-main.js.map": "/nasa_apod/static/js/runtime-main.461461a2.js.map",
+    "static/js/2.da5886c9.chunk.js": "/nasa_apod/static/js/2.da5886c9.chunk.js",
+    "static/js/2.da5886c9.chunk.js.map": "/nasa_apod/static/js/2.da5886c9.chunk.js.map",
+    "static/js/3.673fb298.chunk.js": "/nasa_apod/static/js/3.673fb298.chunk.js",
+    "static/js/3.673fb298.chunk.js.map": "/nasa_apod/static/js/3.673fb298.chunk.js.map",
     "index.html": "/nasa_apod/index.html",
-    "static/css/main.2506d703.chunk.css.map": "/nasa_apod/static/css/main.2506d703.chunk.css.map",
-    "static/js/2.3cf5bbbf.chunk.js.LICENSE.txt": "/nasa_apod/static/js/2.3cf5bbbf.chunk.js.LICENSE.txt"
+    "static/css/main.0b895cab.chunk.css.map": "/nasa_apod/static/css/main.0b895cab.chunk.css.map",
+    "static/js/2.da5886c9.chunk.js.LICENSE.txt": "/nasa_apod/static/js/2.da5886c9.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/nasa_apod/static/media/nasa-minimal.9cc51f79.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2089a83f.js",
-    "static/js/2.3cf5bbbf.chunk.js",
-    "static/css/main.2506d703.chunk.css",
-    "static/js/main.20e1934c.chunk.js"
+    "static/js/runtime-main.461461a2.js",
+    "static/js/2.da5886c9.chunk.js",
+    "static/css/main.0b895cab.chunk.css",
+    "static/js/main.91a1c38c.chunk.js"
   ]
 }
