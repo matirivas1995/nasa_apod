@@ -1,0 +1,70 @@
+.nasa-weather {
+    padding: 1rem;
+    background-color: white;
+    margin: 0rem 1rem;
+    max-height: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 75%;
+    flex: 3;
+    flex-direction: column;
+    align-items: space-around;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+}
+
+.header h1 {
+    flex: 2;
+    font-size: 2.5rem;
+    margin: 0;
+}
+.header p {
+    flex: 2;
+}
+
+.extra-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2em;
+}
+
+.wrap-previous {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2em;
+    font-size: calc(2vmin);
+}
+
+.date h2{
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+.date p {
+    font-size: 2.25rem;
+    margin: 0;
+    color: #989898;
+    font-weight: 300;
+}
+
+.temp {
+    padding: 0 2em;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.wind {
+    display: grid;
+}
+
+.section-title,
+.reading {
+  grid-column: 2 / 3;
+}

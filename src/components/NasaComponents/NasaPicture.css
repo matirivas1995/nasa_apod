@@ -1,8 +1,12 @@
 .nasa-picture {
     padding: 1rem;
     background-color: white;
-    margin: 4rem 4rem;
-    max-height: 100%;
+    margin: 0rem 1rem;
+    display: block;
+    flex: 3;
+    opacity: 75%;
+    flex-direction: column;
+    align-items: space-around;
 }
 
 .nasa-picture  h1 {
@@ -16,7 +20,8 @@
 }
 
 .nasa-picture  .explanation {
-  color: #bbb;
+  color: rgb(68, 68, 68);
+  font-size: calc(2px + 2vmin);
 }
 
 @media (max-width: 1280px) {

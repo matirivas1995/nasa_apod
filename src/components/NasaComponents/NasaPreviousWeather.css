@@ -1,0 +1,16 @@
+.previous-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: space-between;
+    overflow: auto;
+}
+
+button {
+    width: 33%;
+}
+
+.button-container {
+    display: flex;
+    white-space: normal;
+    word-wrap: break-word;
+}

@@ -1,19 +1,20 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import NasaPicture from "./components/NasaPicture";
 import "./App.css";
 import { Helmet } from "react-helmet";
+import Home from "./components/Home";
 
 const App = () => {
+  const title='NASA API'
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>APOD</title>]
+        <title>{title}</title>]
       </Helmet>
       <BrowserRouter>
         <div className="App-header">
-          <Route component={NasaPicture} path="/" />
+          <Route component={Home} path="/" />
         </div>
       </BrowserRouter>
     </div>

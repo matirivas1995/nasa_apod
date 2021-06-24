@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
-import Picture from "./UI/Picture";
-import Card from "./UI/Card";
+import Picture from "../UI/Picture";
+import Card from "../UI/Card";
 import './NasaPicture.css'
-import Nav from "./UI/Nav";
 
 const apiKey = process.env.REACT_APP_APOD_KEY;
 
 const NasaPicture = () => {
     const [pictureData, setPictureData] = useState(null);
-    const title = "APOD";
 
     useEffect(() => {
         fetchPhoto();
@@ -20,14 +18,14 @@ const NasaPicture = () => {
             const data = await res.json();
             setPictureData(data);
         }
+
     }, []);
 
     if (!pictureData) return <div />;
 
     return (
-        <>
-            <Nav title={title}/>
             <Card className="nasa-picture">
+                <h1>ASTRONOMY PICTURE OF THE DAY</h1>
                 <Picture pictureData={pictureData} />
                 <div>
                     <h1>{pictureData.title}</h1>
@@ -35,7 +33,6 @@ const NasaPicture = () => {
                     <p className="explanation">{pictureData.explanation}</p>
                 </div>
             </Card>
-        </>
     );
 }
 
